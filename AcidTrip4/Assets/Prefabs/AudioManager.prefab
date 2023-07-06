@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8123648911067391813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8123648911067391814}
+  - component: {fileID: 8123648911067391815}
+  - component: {fileID: 1209067742}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8123648911067391814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8123648911067391813}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.7419305, y: 0.49904913, z: -45.706642}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8123648911067391815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8123648911067391813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c233417aa9c850043b24b61b262a35e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: battle_music_1
+    clip: {fileID: 8300000, guid: c087b5f5cda09c4488fe1e9b7efa6a1a, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: earrape
+    clip: {fileID: 8300000, guid: 456bc9174ab5e2448837fff845a44a38, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: beatsong
+    clip: {fileID: 8300000, guid: 532e3817a1c7dfd4a8816a2450eee071, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: menu_select
+    clip: {fileID: 8300000, guid: d37f22bd0f4ffdc43a1dae38a6bc5886, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: menu_back
+    clip: {fileID: 8300000, guid: 8dbd9689d8f28684995ac8408a4b9e47, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: blip
+    clip: {fileID: 8300000, guid: bb3fc89f582f5ad4faa254df6be661d7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: explosion
+    clip: {fileID: 8300000, guid: bb3f5d78c1aed754da8f29c04af89fdc, type: 3}
+    volume: 0.73
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: garfield
+    clip: {fileID: 8300000, guid: 91761e8576b7d89489f92473f9ff3dbc, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: title
+    clip: {fileID: 8300000, guid: 9c1e3b5de2e9e594d955742b327a2732, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: field_theme
+    clip: {fileID: 8300000, guid: 6def14470e7e8f14c86d7862c5733716, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: fbi
+    clip: {fileID: 8300000, guid: bfbef7d52a78b594e945bf9bc1480288, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: screech
+    clip: {fileID: 8300000, guid: 1bb21eaf6a2d0464999dc8b3d39b3d7c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: siren
+    clip: {fileID: 8300000, guid: 8d0c368cf32a8484e88ad224f4b4622b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: credits
+    clip: {fileID: 8300000, guid: 321b0a083e5ba494bb6e74380823eb2a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: snail_hit
+    clip: {fileID: 8300000, guid: af4385ad6be43fe42a1b70b903d6069d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: snail_death
+    clip: {fileID: 8300000, guid: 290a2fb263470d3468715ecfdb2e2859, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: leon_hit
+    clip: {fileID: 8300000, guid: f40be0ec612a642419545bb138b74b5a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: leon_death
+    clip: {fileID: 8300000, guid: f73aeeccc194ae549a50c08fe2ef7cba, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: stat_hit
+    clip: {fileID: 8300000, guid: 94b30366489c7844eb3f30663e4d3c68, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: stat_death
+    clip: {fileID: 8300000, guid: f7066e4a8453f5047823d2abb25450a0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: shredder_hit
+    clip: {fileID: 8300000, guid: 303849b23e8ddb94f944a4064a8c9be5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: shredder_death
+    clip: {fileID: 8300000, guid: a5b7759164831b74cb0d6ec24fe13c22, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: conch_hit
+    clip: {fileID: 8300000, guid: b785ba4a3da5a05429aca586823f6018, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: conch_death
+    clip: {fileID: 8300000, guid: d0504bbe4284ece4d9b3de0dbcc6fa45, type: 3}
+    volume: 0.33
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: mans_hit
+    clip: {fileID: 8300000, guid: a7cf8230ef6922b4c84074e02e448e1c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: mans_death
+    clip: {fileID: 8300000, guid: 6c5a663e2d76a024ea426ccd17a4d336, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: snail_attack
+    clip: {fileID: 8300000, guid: 6f358fb9757b36f4f93c36a5bc076254, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: stat_attack
+    clip: {fileID: 8300000, guid: 6778535f9f7ae524abfd8a4610e662d5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: leon_attack
+    clip: {fileID: 8300000, guid: 54fa6f902dcada64b84cd0954e37f888, type: 3}
+    volume: 0.813
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: shredder_attack
+    clip: {fileID: 8300000, guid: 11fb13a7f136932418da00b16809363a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: punch
+    clip: {fileID: 8300000, guid: 3f7f63f08dade7d41bf0cac11b1d3e98, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: drama
+    clip: {fileID: 8300000, guid: aa0e86e95ed49754494178e606e3a738, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+--- !u!114 &1209067742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8123648911067391813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83a5b472c6406ea41bc33c6539665dfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
